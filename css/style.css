@@ -1186,6 +1186,58 @@ h1, h2, h3, h4 { line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
   line-height: 1.6;
 }
 
+/* AI Safety Callout */
+.ai-safety-callout {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  background: linear-gradient(135deg, rgba(59,127,255,0.07), rgba(139,92,246,0.05));
+  border: 1px solid rgba(59,127,255,0.18);
+  border-radius: var(--radius-lg);
+  padding: 28px 32px;
+  margin-top: 16px;
+}
+.asc-icon {
+  font-size: 2rem;
+  color: var(--primary);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.asc-body strong {
+  display: block;
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+.asc-body p {
+  color: var(--text-muted);
+  font-size: 0.87rem;
+  line-height: 1.65;
+  margin-bottom: 8px;
+}
+.asc-body p:last-child { margin-bottom: 0; }
+.asc-label {
+  display: inline-block;
+  font-size: 0.62rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 2px 8px;
+  border-radius: 99px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.asc-label.prevention {
+  background: rgba(20,232,216,0.12);
+  color: var(--secondary);
+  border: 1px solid rgba(20,232,216,0.25);
+}
+.asc-label.recovery {
+  background: rgba(251,191,36,0.12);
+  color: var(--accent);
+  border: 1px solid rgba(251,191,36,0.25);
+}
+
 /* ═══════════════════════════════════════════════════
    COMPETITIVE EDGE
    ═══════════════════════════════════════════════════ */
@@ -1720,6 +1772,21 @@ h1, h2, h3, h4 { line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
 .partner-icon.amber { background: var(--accent-dim);    color: var(--accent); }
 .partner-icon.red   { background: var(--red-dim);       color: var(--red); }
 
+.partner-tag {
+  display: inline-block;
+  font-size: 0.58rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 2px 6px;
+  border-radius: 99px;
+  background: rgba(251,191,36,0.15);
+  color: var(--accent);
+  border: 1px solid rgba(251,191,36,0.3);
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
 .partner-name {
   font-weight: 800;
   font-size: 0.95rem;
@@ -2095,6 +2162,7 @@ h1, h2, h3, h4 { line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
   .footer-inner { gap: 36px; }
 
   .no-hardware-banner { flex-direction: column; padding: 24px; }
+  .ai-safety-callout  { flex-direction: column; padding: 24px; }
   .purple-pound-banner { flex-direction: column; align-items: flex-start; padding: 24px; }
   .evidence-strip { flex-direction: column; align-items: flex-start; gap: 12px; }
 
