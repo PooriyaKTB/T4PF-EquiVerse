@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ThisAbility — A predictive accessibility ecosystem empowering 16 million UK disabled people to travel independently, safely and with dignity. Powered by EquiVerse." />
+  <title>ThisAbility — Empowering Independence, Safety &amp; Dignity</title>
+  <link rel="icon" href="../assets/logo-icon.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ThisAbility — Empowering Independence, Safety &amp; Dignity" />
+  <meta property="og:description" content="A predictive accessibility ecosystem for 16 million UK disabled people. AI-powered routing, dignity-preserving profile sharing, and safety monitoring — all on-device." />
+  <meta property="og:image" content="../assets/logo-icon.png" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand" aria-label="ThisAbility home">
+        <img src="../assets/logo-icon.png" alt="" aria-hidden="true" class="nav-logo-img" />
+        <span class="brand-text"><span class="brand-this">This</span><span class="brand-ability">Ability</span></span>
+      </a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#solution">Solution</a></li>
+        <li><a href="#edge">Edge</a></li>
+        <li><a href="#market">Market</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#business">Business</a></li>
+      </ul>
+      <a href="#demo" class="btn btn-nav">Try the Demo</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<section class="hero" id="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+    <div class="hero-blob blob-3"></div>
+    <div class="hero-grid"></div>
+  </div>
+  <div class="container">
+    <div class="hero-inner">
+
+      <div class="hero-content" data-animate="fadeUp">
+        <div class="hero-badge">
+          <i class="fas fa-award" aria-hidden="true"></i>
+          Tech For Positive Futures &nbsp;·&nbsp; Team 3 &nbsp;·&nbsp; 2026
+        </div>
+        <h1 class="hero-headline">
+          Empowering<br>
+          <span class="gradient-text">Independence,</span><br>
+          Safety &amp; Dignity
+        </h1>
+        <p class="hero-subtext">
+          ThisAbility is a predictive accessibility ecosystem that transforms how 16 million UK disabled people navigate cities — powered by AI, real-time city data, and community intelligence.
+        </p>
+        <div class="hero-actions">
+          <a href="#demo" class="btn btn-primary btn-lg">
+            <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+            Try the Demo
+          </a>
+          <a href="#solution" class="btn btn-ghost btn-lg">
+            <i class="fas fa-play-circle" aria-hidden="true"></i>
+            See How It Works
+          </a>
+        </div>
+        <div class="hero-trust" role="list">
+          <span class="trust-item" role="listitem"><i class="fas fa-lock" aria-hidden="true"></i> 100% on-device privacy</span>
+          <span class="trust-item" role="listitem"><i class="fas fa-shield-halved" aria-hidden="true"></i> GDPR Article 9 compliant</span>
+          <span class="trust-item" role="listitem"><i class="fas fa-heart" aria-hidden="true"></i> Free for users, always</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-animate="fadeRight" aria-hidden="true">
+        <div class="phone-glow"></div>
+        <div class="phone-mockup">
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+
+              <!-- App Header -->
+              <div class="app-header-mock">
+                <div class="app-header-top-mock">
+                  <div class="app-header-brand">
+                    <img src="../assets/logo-icon.png" alt="" class="app-logo-icon" />
+                    <span class="app-logo-mock">ThisAbility</span>
+                  </div>
+                  <span class="app-user-mock"><i class="fas fa-user-circle"></i> Amara (Pro)</span>
+                </div>
+                <div class="app-greeting-mock">Good Afternoon, Amara!</div>
+                <div class="app-subtitle-mock">Plan a safer journey with live accessibility intelligence.</div>
+                <div class="app-pills-mock">
+                  <span><i class="fas fa-shield-alt"></i> On-device</span>
+                  <span><i class="fas fa-users"></i> 3 verified</span>
+                  <span><i class="fas fa-route"></i> Ready</span>
+                </div>
+              </div>
+
+              <!-- Route Card -->
+              <div class="app-card-mock">
+                <div class="app-section-label-mock">ACCESSIBLE ROUTING</div>
+                <div class="app-route-input-mock">
+                  <i class="fas fa-map-marker-alt" style="color:#ef4444;"></i>
+                  <span>London, Waterloo</span>
+                  <i class="fas fa-crosshairs" style="color:#3b82f6;margin-left:auto;flex-shrink:0;"></i>
+                </div>
+                <div class="app-route-input-mock dimmed">
+                  <i class="fas fa-search" style="color:#8b5cf6;"></i>
+                  <span>Where to? (e.g. Waterloo Station)</span>
+                </div>
+                <div class="app-chips-grid-mock">
+                  <span class="app-chip-mock active">Step-free</span>
+                  <span class="app-chip-mock">Low crowd</span>
+                  <span class="app-chip-mock">Quiet</span>
+                  <span class="app-chip-mock">Fastest</span>
+                </div>
+                <div class="app-ai-agent-mock">
+                  <i class="fas fa-robot"></i>
+                  <span>AI Agent — adapts to your profile &amp; live conditions</span>
+                </div>
+                <div class="app-btn-mock">
+                  <i class="fas fa-pencil-alt"></i>&nbsp; Find Safe Route
+                </div>
+              </div>
+
+              <!-- Map Visual -->
+              <div class="app-map-mock">
+                <svg class="route-svg" viewBox="0 0 240 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="routeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#2563eb"/>
+                      <stop offset="100%" stop-color="#0d9488"/>
+                    </linearGradient>
+                  </defs>
+                  <line x1="28" y1="82" x2="205" y2="22" stroke="url(#routeGrad)" stroke-width="2.5" stroke-linecap="round"/>
+                  <circle cx="28" cy="82" r="6" fill="#2563eb" stroke="white" stroke-width="2"/>
+                  <circle cx="205" cy="22" r="6" fill="none" stroke="#0d9488" stroke-width="2.5"/>
+                  <rect x="85" y="27" width="60" height="15" rx="4" fill="#fef3c7" stroke="#f59e0b" stroke-width="0.8"/>
+                  <text x="115" y="38.5" text-anchor="middle" fill="#92400e" font-size="7.5" font-weight="700" font-family="system-ui,sans-serif">⚠ lift outage</text>
+                  <rect x="163" y="5" width="56" height="14" rx="4" fill="white" stroke="#d1d5db" stroke-width="0.8"/>
+                  <text x="191" y="15.5" text-anchor="middle" fill="#172033" font-size="7" font-weight="700" font-family="system-ui,sans-serif">Waterloo</text>
+                  <rect x="0" y="86" width="84" height="13" rx="4" fill="white" stroke="#d1d5db" stroke-width="0.8"/>
+                  <text x="42" y="96" text-anchor="middle" fill="#172033" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif">London Bridge Station</text>
+                </svg>
+              </div>
+
+              <!-- App Nav -->
+              <div class="app-nav-mock">
+                <div class="app-nav-item-mock active">
+                  <i class="fas fa-compass"></i>
+                  <span>Explore</span>
+                </div>
+                <div class="app-nav-item-mock">
+                  <i class="fas fa-id-card"></i>
+                  <span>CapAble ID</span>
+                </div>
+                <div class="app-nav-item-mock">
+                  <i class="fas fa-shield-alt"></i>
+                  <span>Guardian</span>
+                </div>
+                <div class="app-nav-item-mock">
+                  <i class="fas fa-cog"></i>
+                  <span>Settings</span>
+                </div>
+              </div>
+
+            </div><!-- /phone-screen -->
+          </div><!-- /phone-frame -->
+
+          <!-- Floating notification badges -->
+          <div class="floating-badge badge-right">
+            <i class="fas fa-triangle-exclamation" style="color:#ef4444;"></i>
+            <span>Lift outage — rerouted!</span>
+          </div>
+          <div class="floating-badge badge-left">
+            <i class="fab fa-bluetooth-b" style="color:#3b7eff;"></i>
+            <span>CapAble ID active</span>
+          </div>
+        </div><!-- /phone-mockup -->
+      </div><!-- /hero-visual -->
+
+    </div><!-- /hero-inner -->
+  </div>
+</section>
+
+<!-- ═══════════════════════════ STATS BAND ═══════════════════════════ -->
+<div class="stats-band" role="region" aria-label="Key statistics">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item" data-animate="fadeUp">
+        <div class="stat-number">1.3B</div>
+        <div class="stat-label">People globally with disabilities</div>
+      </div>
+      <div class="stat-item" data-animate="fadeUp" data-delay="80">
+        <div class="stat-number">16M</div>
+        <div class="stat-label">UK disabled adults — our SAM</div>
+      </div>
+      <div class="stat-item" data-animate="fadeUp" data-delay="160">
+        <div class="stat-number">£274B</div>
+        <div class="stat-label">UK "Purple Pound" consumer market</div>
+      </div>
+      <div class="stat-item" data-animate="fadeUp" data-delay="240">
+        <div class="stat-number">7,600+</div>
+        <div class="stat-label">TfL lift faults in London, 2025</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ PROBLEM ═══════════════════════════ -->
+<section class="section" id="problem">
+  <div class="container">
+    <div class="section-label" data-animate="fadeUp">The Problem</div>
+    <h2 class="section-heading" data-animate="fadeUp">Three Crises.<br>One Broken System.</h2>
+    <p class="section-subtext" data-animate="fadeUp">
+      Current solutions — Google Maps, Citymapper, Wheelmap — are static, reactive, and disconnected from the real-time heartbeat of cities. We built something fundamentally different.
+    </p>
+    <div class="problems-grid">
+      <div class="problem-card" data-animate="fadeUp">
+        <div class="problem-icon"><i class="fas fa-city" aria-hidden="true"></i></div>
+        <h3>Dynamic Urban Isolation</h3>
+        <p>Sudden infrastructure failures and street works strip citizens of their independence. With ~7,600 TfL lift faults in 2025 alone, mainstream maps offer zero real-time alternative routing for disabled people.</p>
+        <div class="problem-quote">
+          "Broken lifts aren't inconveniences — they are absolute stop signs."
+        </div>
+      </div>
+      <div class="problem-card highlighted" data-animate="fadeUp" data-delay="100">
+        <div class="problem-icon"><i class="fas fa-comment-slash" aria-hidden="true"></i></div>
+        <h3>The Emotional Toll &amp; Dignity Gap</h3>
+        <p>Every day, disabled people are forced to explain their personal limitations to transit staff and venue operators — repeatedly, exhaustingly, and without dignity. No current app solves this.</p>
+        <div class="problem-quote">
+          "It's not just the broken lift. It's the anxiety of having to explain my disability to five different people a day. It's exhausting."
+          <cite>— Martin, Daily Commuter</cite>
+        </div>
+      </div>
+      <div class="problem-card" data-animate="fadeUp" data-delay="200">
+        <div class="problem-icon"><i class="fas fa-person-falling" aria-hidden="true"></i></div>
+        <h3>Unmonitored Lone Journeys</h3>
+        <p>Lack of proactive fall and tip-over detection leaves vulnerable individuals isolated during emergencies. Over 80% of UK disabled adults already own smartphones — the hardware for a safety net is already in their pockets.</p>
+        <div class="problem-quote">
+          "80%+ smartphone penetration among UK disabled adults. The infrastructure is already there — we just need to activate it."
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SOLUTION ═══════════════════════════ -->
+<section class="section section-dark" id="solution">
+  <div class="container">
+    <div class="section-label" data-animate="fadeUp">The Solution</div>
+    <h2 class="section-heading" data-animate="fadeUp">One Unified Platform.<br>Powered by EquiVerse.</h2>
+    <p class="section-subtext" data-animate="fadeUp">
+      Solving all three problems with a single, privacy-first ecosystem — no new hardware required. Your smartphone is all you need.
+    </p>
+
+    <div class="equiverse-equation" data-animate="fadeUp" aria-label="EquiVerse inputs">
+      <div class="eq-inputs">
+        <span class="eq-tag">User Preferences</span>
+        <span class="eq-plus" aria-hidden="true">+</span>
+        <span class="eq-tag">Behaviour Data</span>
+        <span class="eq-plus" aria-hidden="true">+</span>
+        <span class="eq-tag">Language</span>
+        <span class="eq-plus" aria-hidden="true">+</span>
+        <span class="eq-tag">Transport APIs</span>
+        <span class="eq-plus" aria-hidden="true">+</span>
+        <span class="eq-tag">Council Data</span>
+        <span class="eq-plus" aria-hidden="true">+</span>
+        <span class="eq-tag">User Reports</span>
+        <span class="eq-plus" aria-hidden="true">+</span>
+        <span class="eq-tag">Wearables</span>
+      </div>
+      <div class="eq-arrow" aria-hidden="true">
+        <i class="fas fa-arrow-right"></i>
+      </div>
+      <div class="eq-output">
+        <div class="eq-engine">EquiVerse</div>
+        <div class="eq-result">Personalised Accessibility</div>
+      </div>
+    </div>
+
+    <div class="modules-grid-site">
+      <div class="module-card-site" data-animate="fadeUp">
+        <div class="module-icon-site blue"><i class="fas fa-map-location-dot" aria-hidden="true"></i></div>
+        <h3>Dynamic Map</h3>
+        <p>AI pathfinding that adapts your route <em>before</em> you reach an obstacle, combining real-time TfL data, smart-city feeds, and crowd telemetry.</p>
+        <ul class="module-features">
+          <li><i class="fas fa-check" aria-hidden="true"></i> Live TfL lift &amp; escalator status</li>
+          <li><i class="fas fa-check" aria-hidden="true"></i> Step-free, quiet, crowd-avoiding modes</li>
+          <li><i class="fas fa-check" aria-hidden="true"></i> Proactive rerouting before obstacles</li>
+        </ul>
+      </div>
+      <div class="module-card-site" data-animate="fadeUp" data-delay="80">
+        <div class="module-icon-site teal"><i class="fas fa-id-card" aria-hidden="true"></i></div>
+        <h3>CapAble ID</h3>
+        <p>Secure NFC/BLE disability profile sharing. Venues silently receive your access needs — no verbal explanation needed, no dignity lost.</p>
+        <ul class="module-features">
+          <li><i class="fas fa-check" aria-hidden="true"></i> Bluetooth &amp; NFC profile broadcast</li>
+          <li><i class="fas fa-check" aria-hidden="true"></i> Article 9 sensitive data stays on-device</li>
+          <li><i class="fas fa-check" aria-hidden="true"></i> Granular sharing controls per venue</li>
+        </ul>
+      </div>
+      <div class="module-card-site" data-animate="fadeUp" data-delay="160">
+        <div class="module-icon-site amber"><i class="fas fa-bell" aria-hidden="true"></i></div>
+        <h3>Surround Alerts</h3>
+        <p>Proactive haptic warnings for micro-obstacles and sensory-heavy environments — before you encounter them, not after you're already overwhelmed.</p>
+        <ul class="module-features">
+          <li><i class="fas fa-check" aria-hidden="true"></i> Real-time crowd density warnings</li>
+          <li><i class="fas fa-check" aria-hidden="true"></i> Sensory overload environment detection</li>
+          <li><i class="fas fa-check" aria-hidden="true"></i> Haptic-first alert system</li>
+        </ul>
+      </div>
+      <div class="module-card-site" data-animate="fadeUp" data-delay="240">
+        <div class="module-icon-site red"><i class="fas fa-heart-pulse" aria-hidden="true"></i></div>
+        <h3>Active Guardian</h3>
+        <p>24/7 fall &amp; tip-over detection using your smartphone's gyroscope — instantly alerting emergency contacts with GPS location and route context.</p>
+        <ul class="module-features">
+          <li><i class="fas fa-check" aria-hidden="true"></i> Phone gyroscope fall detection</li>
+          <li><i class="fas fa-check" aria-hidden="true"></i> Fall, anxiety overload, and SOS alerts</li>
+          <li><i class="fas fa-check" aria-hidden="true"></i> Route + health context sent to guardians</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- EquiVerse AI Learning Callout -->
+    <div class="ai-learning-callout" data-animate="fadeUp">
+      <div class="alc-header">
+        <div class="alc-eyebrow">
+          <i class="fas fa-brain" aria-hidden="true"></i>
+          EquiVerse Adaptive Intelligence
+        </div>
+        <h3>An AI That Learns at Two Levels — Simultaneously.</h3>
+        <p>Every module you use teaches EquiVerse about you and about the world around you. The result: a system that gets measurably smarter with every journey — for every user — whilst keeping your data entirely private.</p>
+      </div>
+
+      <div class="alc-layers">
+        <div class="alc-layer">
+          <div class="alc-layer-icon blue" aria-hidden="true">
+            <i class="fas fa-user-shield"></i>
+          </div>
+          <div class="alc-layer-body">
+            <div class="alc-layer-title">
+              Personal Layer
+              <span class="alc-badge">On-device &nbsp;·&nbsp; 100% private</span>
+            </div>
+            <p>Learns from <em>your</em> actions across all four modules. Your route choices shape your routing. Your anxiety thresholds calibrate your alerts. Your Guardian patterns refine fall-detection sensitivity. All learning stays on your device — nothing is ever uploaded.</p>
+          </div>
+        </div>
+
+        <div class="alc-divider" aria-hidden="true">
+          <div class="alc-divider-line"></div>
+          <div class="alc-divider-centre">
+            <i class="fas fa-arrows-rotate"></i>
+            Cross-module<br>feed
+          </div>
+          <div class="alc-divider-line"></div>
+        </div>
+
+        <div class="alc-layer">
+          <div class="alc-layer-icon teal" aria-hidden="true">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <div class="alc-layer-body">
+            <div class="alc-layer-title">
+              Community Layer
+              <span class="alc-badge teal">Anonymised &nbsp;·&nbsp; Aggregated</span>
+            </div>
+            <p>When many users reroute around the same junction or flag the same venue, EquiVerse detects an uncharted barrier and pre-routes future users around it — before TfL even logs the fault. No personal data is shared. Only anonymous, aggregated signals.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="alc-example">
+        <i class="fas fa-bolt" aria-hidden="true"></i>
+        <span><strong>Illustrative example:</strong> Dozens of users request rerouting near the same lift within a short window. EquiVerse detects the pattern, marks it as a predicted barrier, and begins rerouting all affected users — before TfL has logged the fault.</span>
+      </div>
+
+      <div class="alc-cross-modules">
+        <span class="alc-cross-label"><i class="fas fa-share-nodes" aria-hidden="true"></i> Each module teaches the others</span>
+        <span class="alc-sep" aria-hidden="true">·</span>
+        <span><i class="fas fa-heart-pulse" aria-hidden="true"></i> Guardian signals → smarter routing</span>
+        <span class="alc-sep" aria-hidden="true">·</span>
+        <span><i class="fas fa-id-card" aria-hidden="true"></i> CapAble ID → calibrated alerts</span>
+        <span class="alc-sep" aria-hidden="true">·</span>
+        <span><i class="fas fa-bell" aria-hidden="true"></i> Surround patterns → Guardian thresholds</span>
+        <span class="alc-sep" aria-hidden="true">·</span>
+        <span><i class="fas fa-route" aria-hidden="true"></i> Route history → predictive rerouting</span>
+      </div>
+    </div>
+
+    <div class="no-hardware-banner" data-animate="fadeUp">
+      <div class="nhb-icon" aria-hidden="true"><i class="fas fa-mobile-screen"></i></div>
+      <div class="nhb-text">
+        <strong>We don't need new hardware.</strong>
+        <p>Smartphone gyroscope for fall detection &nbsp;·&nbsp; NFC/BLE for CapAble ID &nbsp;·&nbsp; Crowd telemetry for barrier verification. Everything runs on the device already in your pocket.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ COMPETITIVE EDGE ═══════════════════════════ -->
+<section class="section" id="edge">
+  <div class="container">
+    <div class="section-label" data-animate="fadeUp">Competitive Edge</div>
+    <h2 class="section-heading" data-animate="fadeUp">No One Else Does All Five.</h2>
+    <p class="section-subtext" data-animate="fadeUp">
+      Mainstream maps treat disability as an afterthought. Niche tools rely on outdated manual reviews. We deliver live, hyper-personalised, unified accessibility intelligence.
+    </p>
+
+    <div class="compare-wrapper" data-animate="fadeUp">
+      <div class="compare-table-scroll">
+        <table class="compare-table" role="table" aria-label="Feature comparison table">
+          <thead>
+            <tr>
+              <th scope="col">Key Feature</th>
+              <th scope="col">Google / Citymapper</th>
+              <th scope="col">Wheelmap / AccessAble</th>
+              <th scope="col" class="highlight-col"><span class="brand-this">This</span><span class="brand-ability">Ability</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Disability-aware Routing</td>
+              <td><span class="cmp partial">Limited</span></td>
+              <td><span class="cmp partial">Partial</span></td>
+              <td class="highlight-col"><span class="cmp yes">Profile-Specific AI</span></td>
+            </tr>
+            <tr>
+              <td>Real-time Accessibility</td>
+              <td><span class="cmp no"><i class="fas fa-xmark"></i> NO</span></td>
+              <td><span class="cmp partial">Community-only</span></td>
+              <td class="highlight-col"><span class="cmp yes">Live Telemetry</span></td>
+            </tr>
+            <tr>
+              <td>CapAble ID Dignity</td>
+              <td><span class="cmp no"><i class="fas fa-xmark"></i> NO</span></td>
+              <td><span class="cmp no"><i class="fas fa-xmark"></i> NO</span></td>
+              <td class="highlight-col"><span class="cmp yes"><i class="fas fa-check"></i> YES</span></td>
+            </tr>
+            <tr>
+              <td>Safety Monitoring</td>
+              <td><span class="cmp no"><i class="fas fa-xmark"></i> NO</span></td>
+              <td><span class="cmp no"><i class="fas fa-xmark"></i> NO</span></td>
+              <td class="highlight-col"><span class="cmp yes"><i class="fas fa-check"></i> YES</span></td>
+            </tr>
+            <tr>
+              <td>City Planning Insights</td>
+              <td><span class="cmp partial">Limited</span></td>
+              <td><span class="cmp no"><i class="fas fa-xmark"></i> NO</span></td>
+              <td class="highlight-col"><span class="cmp yes">Accessibility Heatmaps</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="edge-cards">
+      <div class="edge-card" data-animate="fadeUp">
+        <div class="edge-icon blue"><i class="fas fa-brain" aria-hidden="true"></i></div>
+        <h3>Hyper-Personalised ML</h3>
+        <p>Competitors treat all users with similar disabilities identically. Our localised AI engine builds a unique, continuously learning model for each person — adapting daily to their specific physical, sensory, and linguistic capabilities.</p>
+      </div>
+      <div class="edge-card" data-animate="fadeUp" data-delay="100">
+        <div class="edge-icon teal"><i class="fas fa-vault" aria-hidden="true"></i></div>
+        <h3>Privacy-First Data Enclave</h3>
+        <p>Medical and health profiles are stored strictly locally via Self-Sovereign Identity. No server ever sees sensitive health data — ensuring total community trust and full GDPR Article 9 compliance.</p>
+      </div>
+      <div class="edge-card" data-animate="fadeUp" data-delay="200">
+        <div class="edge-icon amber"><i class="fas fa-wave-square" aria-hidden="true"></i></div>
+        <h3>Biometric Telemetry Verification</h3>
+        <p>Phase 1 barriers verified via crowd reports and TfL's Open Data API. Phase 2 introduces wearable sensors that auto-verify barriers via telemetry changes — e.g., wheelchair impact signatures and sudden stops.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ MARKET OPPORTUNITY ═══════════════════════════ -->
+<section class="section section-dark" id="market">
+  <div class="container">
+    <div class="section-label" data-animate="fadeUp">Market Opportunity</div>
+    <h2 class="section-heading" data-animate="fadeUp">A £274B Market Waiting to Move.</h2>
+    <p class="section-subtext" data-animate="fadeUp">
+      We start with a 150K-user pilot in London, scale to 16 million across the UK, and expand to 1.3 billion people globally — unlocking a market no other platform has touched.
+    </p>
+
+    <div class="market-grid" data-animate="fadeUp">
+      <div class="market-card som">
+        <div class="market-tier">SOM · Serviceable Obtainable Market</div>
+        <div class="market-number">150K</div>
+        <div class="market-desc">Pilot users — London Core (Ages 18–45)</div>
+        <div class="market-scope">London, Phase 01</div>
+      </div>
+      <div class="market-card sam">
+        <div class="market-tier">SAM · Serviceable Available Market</div>
+        <div class="market-number">16M</div>
+        <div class="market-desc">People with disabilities in the UK</div>
+        <div class="market-scope">United Kingdom</div>
+      </div>
+      <div class="market-card tam">
+        <div class="market-tier">TAM · Total Addressable Market</div>
+        <div class="market-number">1.3B</div>
+        <div class="market-desc">People globally with significant disabilities</div>
+        <div class="market-scope">Global</div>
+      </div>
+    </div>
+
+    <div class="purple-pound-banner" data-animate="fadeUp">
+      <div class="pp-icon" aria-hidden="true"><i class="fas fa-sterling-sign"></i></div>
+      <div class="pp-content">
+        <strong>The Purple Pound</strong>
+        <p>Businesses that partner with ThisAbility gain access to the <strong>£274B UK Purple Pound</strong> — the combined spending power of 16 million disabled citizens. Our B2G accessibility data products unlock this market for cities, transit authorities, and brands.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ ROADMAP ═══════════════════════════ -->
+<section class="section" id="roadmap">
+  <div class="container">
+    <div class="section-label" data-animate="fadeUp">Roadmap</div>
+    <h2 class="section-heading" data-animate="fadeUp">Three Phases. Global Impact.</h2>
+    <p class="section-subtext" data-animate="fadeUp">A structured path from pilot to worldwide accessibility standardisation.</p>
+
+    <div class="roadmap-container" data-animate="fadeUp">
+      <div class="roadmap-phase phase-current">
+        <div class="rp-header">
+          <div class="rp-number">01</div>
+          <div class="rp-status current">Live Now</div>
+        </div>
+        <h3 class="rp-title">MVP Launch</h3>
+        <ul class="rp-list">
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i>CapAble ID Protocol</li>
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i>Core AI Navigation</li>
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i>Surround Alerts</li>
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i>Smartphone-first fall detection</li>
+          <li><i class="fas fa-check-circle" aria-hidden="true"></i>Native language auto-translation</li>
+        </ul>
+        <div class="rp-funding">
+          <i class="fas fa-coins" aria-hidden="true"></i>
+          Tech for Good grants + NGO subsidies
+        </div>
+      </div>
+
+      <div class="roadmap-connector" aria-hidden="true"></div>
+
+      <div class="roadmap-phase">
+        <div class="rp-header">
+          <div class="rp-number">02</div>
+          <div class="rp-status">Upcoming</div>
+        </div>
+        <h3 class="rp-title">Scale &amp; Expand</h3>
+        <ul class="rp-list">
+          <li><i class="fas fa-circle-dot" aria-hidden="true"></i>Real-Time Hazard Alert Engine</li>
+          <li><i class="fas fa-circle-dot" aria-hidden="true"></i>Auto community validation</li>
+          <li><i class="fas fa-circle-dot" aria-hidden="true"></i>Smartwatch biometric integration</li>
+          <li><i class="fas fa-circle-dot" aria-hidden="true"></i>Neurodivergent user expansion</li>
+        </ul>
+        <div class="rp-funding">
+          <i class="fas fa-coins" aria-hidden="true"></i>
+          Premium Guardian £9.99/mo · Target £1.8M ARR Year 2
+        </div>
+      </div>
+
+      <div class="roadmap-connector" aria-hidden="true"></div>
+
+      <div class="roadmap-phase">
+        <div class="rp-header">
+          <div class="rp-number">03</div>
+          <div class="rp-status">Future</div>
+        </div>
+        <h3 class="rp-title">Global Accessibility</h3>
+        <ul class="rp-list">
+          <li><i class="fas fa-circle-dot" aria-hidden="true"></i>Full wearable integration &amp; SOS</li>
+          <li><i class="fas fa-circle-dot" aria-hidden="true"></i>B2G smart-city API integration</li>
+          <li><i class="fas fa-circle-dot" aria-hidden="true"></i>Accessibility Heatmaps for councils</li>
+          <li><i class="fas fa-circle-dot" aria-hidden="true"></i>Global accessibility standardisation</li>
+        </ul>
+        <div class="rp-funding">
+          <i class="fas fa-coins" aria-hidden="true"></i>
+          DaaS £50K–£100K/council · API licensing £200K–£500K/yr
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ BUSINESS MODEL ═══════════════════════════ -->
+<section class="section section-dark" id="business">
+  <div class="container">
+    <div class="section-label" data-animate="fadeUp">Business Model</div>
+    <h2 class="section-heading" data-animate="fadeUp">Built for Inclusion.<br>Designed to Scale.</h2>
+    <p class="section-subtext" data-animate="fadeUp">
+      Free for every user, always — and commercially sustainable through B2G data products and enterprise integration licensing.
+    </p>
+    <div class="biz-grid">
+      <div class="biz-card" data-animate="fadeUp">
+        <div class="biz-phase-tag">B2C · Phase 01–02</div>
+        <div class="biz-icon"><i class="fas fa-users" aria-hidden="true"></i></div>
+        <h3>Inclusive Value</h3>
+        <p>Core navigation app is <strong>permanently free</strong> for all users. Premium Active Guardian subscription unlocks advanced caregiver analytics and remote monitoring.</p>
+        <div class="biz-metric">
+          <span class="biz-metric-number">£9.99<span>/mo</span></span>
+          <span class="biz-metric-label">Premium Guardian subscription · UK disabled households command £274B in annual spending power</span>
+          <a class="biz-source" href="https://wearepurple.org.uk/the-purple-pound/" target="_blank" rel="noopener noreferrer">WeArePurple — The Purple Pound ↗</a>
+        </div>
+      </div>
+      <div class="biz-card highlight" data-animate="fadeUp" data-delay="100">
+        <div class="biz-phase-tag">B2G · Phase 03</div>
+        <div class="biz-icon"><i class="fas fa-city" aria-hidden="true"></i></div>
+        <h3>City Planning DaaS</h3>
+        <p>Accessibility Heatmaps and real-time telemetry sold to municipal councils to optimise urban infrastructure spending and smart-city planning decisions.</p>
+        <div class="biz-metric">
+          <span class="biz-metric-number">£75K<span>/yr</span></span>
+          <span class="biz-metric-label">Per council · UK National Disability Strategy mandates councils invest in accessible infrastructure data reporting</span>
+          <a class="biz-source" href="https://assets.publishing.service.gov.uk/media/60fff9b8d3bf7f0452a7a939/National-Disability-Strategy_web-accesible-pdf.pdf" target="_blank" rel="noopener noreferrer">UK National Disability Strategy, 2021 ↗</a>
+        </div>
+      </div>
+      <div class="biz-card" data-animate="fadeUp" data-delay="200">
+        <div class="biz-phase-tag">B2B · Phase 03</div>
+        <div class="biz-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+        <h3>API &amp; Integration Licensing</h3>
+        <p>Accessibility intelligence licensed to public transport apps, large venue management systems, and urban mobility platforms seeking WCAG compliance.</p>
+        <div class="biz-metric">
+          <span class="biz-metric-number">£350K<span>/yr</span></span>
+          <span class="biz-metric-label">Per enterprise partner · UK Parliament found billions lost annually to inaccessible transport — operators must act</span>
+          <a class="biz-source" href="https://publications.parliament.uk/pa/cm5804/cmselect/cmwomeq/605/report.html" target="_blank" rel="noopener noreferrer">UK Parliament — Women &amp; Equalities Committee ↗</a>
+        </div>
+      </div>
+      <div class="biz-card" data-animate="fadeUp" data-delay="300">
+        <div class="biz-phase-tag">Grants · Phase 01</div>
+        <div class="biz-icon"><i class="fas fa-hand-holding-heart" aria-hidden="true"></i></div>
+        <h3>Innovation Funding</h3>
+        <p>Initial capital from UK Tech for Good government innovation grants and strategic disability NGO partnerships — bootstrapping the platform before commercial revenue.</p>
+        <div class="biz-metric">
+          <span class="biz-metric-number">£0<span>/yr</span></span>
+          <span class="biz-metric-label">Zero infrastructure cost · OpenStreetMap (CC BY-SA licence) + TfL Open Data (free developer licence)</span>
+          <a class="biz-source" href="https://tfl.gov.uk/info-for/open-data-users/" target="_blank" rel="noopener noreferrer">TfL Open Data Licence ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ IMPACT ═══════════════════════════ -->
+<section class="section" id="impact">
+  <div class="container">
+    <div class="section-label" data-animate="fadeUp">Impact</div>
+    <h2 class="section-heading" data-animate="fadeUp">Engineering a World Without Barriers.</h2>
+    <p class="section-subtext" data-animate="fadeUp">We aren't just building a navigation app — we are engineering an ecosystem of human dignity and true social mobility.</p>
+    <div class="impact-grid">
+      <div class="impact-card" data-animate="fadeUp">
+        <div class="impact-icon"><i class="fas fa-sterling-sign" aria-hidden="true"></i></div>
+        <div class="impact-number">£1,095<span class="impact-unit">/mo</span></div>
+        <p>Average extra monthly cost of life when you're disabled in the UK — removing mobility barriers reduces this burden directly</p>
+        <cite class="impact-source"><a href="https://www.scope.org.uk/" target="_blank" rel="noopener noreferrer">Scope — Disability inequality in the UK ↗</a></cite>
+      </div>
+      <div class="impact-card" data-animate="fadeUp" data-delay="80">
+        <div class="impact-icon"><i class="fas fa-ban" aria-hidden="true"></i></div>
+        <div class="impact-number">74%</div>
+        <p>Of disabled people have avoided or left a shop, venue, or service because of poor access and disability awareness</p>
+        <cite class="impact-source"><a href="https://www.scope.org.uk/" target="_blank" rel="noopener noreferrer">Scope — Disability inequality in the UK ↗</a></cite>
+      </div>
+      <div class="impact-card" data-animate="fadeUp" data-delay="160">
+        <div class="impact-icon"><i class="fas fa-person-falling" aria-hidden="true"></i></div>
+        <div class="impact-number">1 in 3</div>
+        <p>Adults over 65 fall at least once a year — our AI Guardian detects falls and alerts carers before they escalate</p>
+        <cite class="impact-source"><a href="https://www.nhs.uk/conditions/falls/" target="_blank" rel="noopener noreferrer">NHS — Falls in Older Adults ↗</a></cite>
+      </div>
+      <div class="impact-card" data-animate="fadeUp" data-delay="240">
+        <div class="impact-icon"><i class="fas fa-train-subway" aria-hidden="true"></i></div>
+        <div class="impact-number">1 in 4</div>
+        <p>Disabled adults find it difficult to travel independently by public transport — a barrier our real-time intelligence removes</p>
+        <cite class="impact-source"><a href="https://www.gov.uk/government/collections/national-travel-survey-statistics" target="_blank" rel="noopener noreferrer">DfT — National Travel Survey, 2022 ↗</a></cite>
+      </div>
+    </div>
+    <blockquote class="impact-quote" data-animate="fadeUp">
+      "ThisAbility gives people with disabilities the confidence to travel independently, safely and with dignity. We transform passive users into empowered citizens — and we unlock the full economic potential of 16 million overlooked people."
+    </blockquote>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ PARTNERS ═══════════════════════════ -->
+<section class="section section-dark" id="partners">
+  <div class="container">
+    <div class="section-label" data-animate="fadeUp">Key Partners</div>
+    <h2 class="section-heading" data-animate="fadeUp">Trusted by Leading Organisations.</h2>
+    <p class="section-subtext" data-animate="fadeUp">Our strategic partners span cloud infrastructure, enterprise data trust, public sector, financial institutions, and disability advocacy — giving EquiVerse the foundation to scale.</p>
+    <div class="partners-grid" data-animate="fadeUp">
+      <a class="partner-card" href="https://blog.google/company-news/outreach-and-initiatives/accessibility/disability-awareness-month-2018/" target="_blank" rel="noopener noreferrer">
+        <div class="partner-icon blue"><i class="fab fa-google" aria-hidden="true"></i></div>
+        <div class="partner-name">Google</div>
+        <div class="partner-role">Geospatial mapping &amp; cloud AI infrastructure</div>
+      </a>
+      <a class="partner-card" href="https://www.salesforce.com/company/accessibility/our-approach/" target="_blank" rel="noopener noreferrer">
+        <div class="partner-icon teal"><i class="fas fa-cloud" aria-hidden="true"></i></div>
+        <div class="partner-name">Salesforce</div>
+        <div class="partner-role">B2G data compliance &amp; trust frameworks</div>
+      </a>
+      <a class="partner-card" href="https://www.capgemini.com/about-us/csr/" target="_blank" rel="noopener noreferrer">
+        <div class="partner-icon blue"><i class="fas fa-building" aria-hidden="true"></i></div>
+        <div class="partner-name">Capgemini</div>
+        <div class="partner-role">Phase 03 strategic tech integration</div>
+      </a>
+      <a class="partner-card" href="https://www.barclayscorporate.com/insights/industry-expertise/unlock-the-purple-pound/" target="_blank" rel="noopener noreferrer">
+        <div class="partner-icon amber"><i class="fas fa-building-columns" aria-hidden="true"></i></div>
+        <div class="partner-name">Barclays</div>
+        <div class="partner-role">Innovation grants &amp; Purple Pound ESG strategy</div>
+      </a>
+      <a class="partner-card" href="https://group.bnpparibas/en/multi-year-digital-accessibility-plan" target="_blank" rel="noopener noreferrer">
+        <div class="partner-icon teal"><i class="fas fa-landmark" aria-hidden="true"></i></div>
+        <div class="partner-name">BNP Paribas</div>
+        <div class="partner-role">Multi-year digital accessibility plan &amp; ESG investment</div>
+      </a>
+      <a class="partner-card" href="https://www.hsbc.com/" target="_blank" rel="noopener noreferrer">
+        <div class="partner-icon red"><i class="fas fa-piggy-bank" aria-hidden="true"></i></div>
+        <div class="partner-name">HSBC</div>
+        <div class="partner-role">Financial services &amp; inclusive banking partner</div>
+      </a>
+      <a class="partner-card" href="https://tfl.gov.uk/corporate/transparency/freedom-of-information/foi-request-detail?referenceId=FOI-4851-2526" target="_blank" rel="noopener noreferrer">
+        <div class="partner-icon red"><i class="fas fa-train" aria-hidden="true"></i></div>
+        <div class="partner-name">TfL Open Data</div>
+        <div class="partner-role">Source of the ~7,600 lift &amp; escalator fault reports, 2025</div>
+      </a>
+      <a class="partner-card" href="https://www.gov.uk/government/publications/disability-action-plan/disability-action-plan" target="_blank" rel="noopener noreferrer">
+        <div class="partner-icon blue"><i class="fas fa-handshake-angle" aria-hidden="true"></i></div>
+        <div class="partner-name">Disability NGOs</div>
+        <div class="partner-role">Community validation &amp; cold-start data bootstrap</div>
+      </a>
+      <a class="partner-card" href="https://codeyourfuture.io/" target="_blank" rel="noopener noreferrer">
+        <div class="partner-icon amber"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div>
+        <div class="partner-name">CodeYourFuture</div>
+        <div class="partner-role">Programme organisers &amp; early talent pipeline</div>
+      </a>
+    </div>
+
+    <!-- Evidence Base -->
+    <div class="evidence-strip" data-animate="fadeUp">
+      <div class="evidence-label">
+        <i class="fas fa-book-open" aria-hidden="true"></i>
+        Policy &amp; Research Evidence Base
+      </div>
+      <div class="evidence-links">
+        <a href="https://www.who.int/news-room/fact-sheets/detail/disability-and-health" target="_blank" rel="noopener noreferrer" class="evidence-link">
+          <i class="fas fa-globe" aria-hidden="true"></i>
+          WHO — Disability &amp; Health
+        </a>
+        <a href="https://assets.publishing.service.gov.uk/media/60fff9b8d3bf7f0452a7a939/National-Disability-Strategy_web-accesible-pdf.pdf" target="_blank" rel="noopener noreferrer" class="evidence-link">
+          <i class="fas fa-file-pdf" aria-hidden="true"></i>
+          UK National Disability Strategy
+        </a>
+        <a href="https://publications.parliament.uk/pa/cm5804/cmselect/cmwomeq/605/report.html" target="_blank" rel="noopener noreferrer" class="evidence-link">
+          <i class="fas fa-landmark" aria-hidden="true"></i>
+          UK Parliament — Women &amp; Equalities Report
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ DEMO ═══════════════════════════ -->
+<section class="section" id="demo">
+  <div class="container">
+    <div class="section-label" data-animate="fadeUp">Live Prototype</div>
+    <h2 class="section-heading" data-animate="fadeUp">Experience ThisAbility Today.</h2>
+    <p class="section-subtext" data-animate="fadeUp">
+      Our Phase 01 prototype is live and fully interactive. Explore all four modules, configure your accessibility profile, and discover how EquiVerse adapts to you.
+    </p>
+    <div class="demo-inner" data-animate="fadeUp">
+      <div class="demo-features-list">
+        <div class="demo-feat">
+          <i class="fas fa-check-circle" aria-hidden="true"></i>
+          <span>Dynamic routing with live obstacle alerts &amp; rerouting</span>
+        </div>
+        <div class="demo-feat">
+          <i class="fas fa-check-circle" aria-hidden="true"></i>
+          <span>CapAble ID BLE broadcast simulation with venue scan</span>
+        </div>
+        <div class="demo-feat">
+          <i class="fas fa-check-circle" aria-hidden="true"></i>
+          <span>Active Guardian fall, anxiety, and SOS detection demo</span>
+        </div>
+        <div class="demo-feat">
+          <i class="fas fa-check-circle" aria-hidden="true"></i>
+          <span>Full accessibility profile: contrast, text size, sensory modes</span>
+        </div>
+        <div class="demo-feat">
+          <i class="fas fa-check-circle" aria-hidden="true"></i>
+          <span>Surround scan proximity alerts with crowd telemetry</span>
+        </div>
+      </div>
+      <a href="../index.html" class="demo-launch-btn btn btn-primary btn-xl" target="_blank" rel="noopener">
+        <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+        Launch the App Demo
+        <i class="fas fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FINAL CTA ═══════════════════════════ -->
+<section class="cta-section">
+  <div class="cta-bg" aria-hidden="true">
+    <div class="cta-blob cb-1"></div>
+    <div class="cta-blob cb-2"></div>
+  </div>
+  <div class="container">
+    <div class="cta-inner" data-animate="fadeUp">
+      <h2 class="cta-headline">
+        Navigate the world<br>
+        <span class="gradient-text">on your terms.</span>
+      </h2>
+      <p class="cta-sub">Join the pilot. Help us engineer a world without barriers for 1.3 billion people.</p>
+      <div class="cta-actions">
+        <a href="../index.html" class="btn btn-primary btn-xl" target="_blank" rel="noopener">
+          <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+          Try the Demo App
+        </a>
+        <a href="#problem" class="btn btn-outline btn-xl">
+          <i class="fas fa-info-circle" aria-hidden="true"></i>
+          Learn More
+        </a>
+      </div>
+      <p class="cta-note">
+        <i class="fas fa-lock" aria-hidden="true"></i> Free forever for individual users &nbsp;·&nbsp;
+        <i class="fas fa-shield-halved" aria-hidden="true"></i> No data uploaded &nbsp;·&nbsp;
+        <i class="fas fa-universal-access" aria-hidden="true"></i> WCAG 2.1 AA
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="footer-logo" aria-label="ThisAbility home">
+          <img src="../assets/logo-icon.png" alt="" aria-hidden="true" class="nav-logo-img small" />
+          <span class="brand-text"><span class="brand-this">This</span><span class="brand-ability">Ability</span></span>
+        </a>
+        <p class="footer-tagline">Empowering Independence, Safety &amp; Dignity for 1.3 billion people globally.</p>
+        <p class="footer-credit">Tech For Positive Futures &nbsp;·&nbsp; Team 3 &nbsp;·&nbsp; 2026</p>
+        <div class="footer-badges">
+          <span><i class="fas fa-lock" aria-hidden="true"></i> Privacy-first</span>
+          <span><i class="fas fa-universal-access" aria-hidden="true"></i> WCAG 2.1 AA</span>
+          <span><i class="fas fa-heart" aria-hidden="true"></i> Tech for Good</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <a href="#solution">Solution</a>
+          <a href="#edge">Competitive Edge</a>
+          <a href="#demo">Try the App</a>
+          <a href="#roadmap">Roadmap</a>
+        </div>
+        <div class="footer-col">
+          <h4>Business</h4>
+          <a href="#market">Market</a>
+          <a href="#business">Business Model</a>
+          <a href="#partners">Partners</a>
+          <a href="#impact">Impact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Modules</h4>
+          <a href="#solution">Dynamic Map</a>
+          <a href="#solution">CapAble ID</a>
+          <a href="#solution">Surround Alerts</a>
+          <a href="#solution">Active Guardian</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 ThisAbility — EquiVerse Ecosystem. All sensitive data stays on your device.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
