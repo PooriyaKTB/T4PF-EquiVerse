@@ -2057,8 +2057,9 @@ h1, h2, h3, h4 { line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
   .hero-headline { font-size: 2.4rem; }
 
   .phone-frame { width: 230px; height: 490px; }
-  .badge-right { display: none; }
-  .badge-left  { display: none; }
+  .floating-badge { font-size: 0.68rem; padding: 5px 8px; gap: 6px; }
+  .badge-right { right: -65px; }
+  .badge-left  { left:  -60px; }
 
   .stats-grid { grid-template-columns: repeat(2,1fr); gap: 20px; }
   .stat-item { border-right: none; padding: 0; }
