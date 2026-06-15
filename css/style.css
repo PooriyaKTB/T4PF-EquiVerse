@@ -1145,13 +1145,13 @@ h1, h2, h3, h4 { line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
 .alc-cross-modules {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
   flex-wrap: wrap;
-  padding: 14px 20px;
+  padding: 12px 18px;
   background: rgba(255,255,255,0.02);
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);
-  font-size: 0.8rem;
+  font-size: 0.76rem;
   color: var(--text-soft);
   font-weight: 600;
 }
@@ -1614,6 +1614,33 @@ h1, h2, h3, h4 { line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
 .biz-metric-number span { font-size: 0.85rem; color: var(--text-muted); font-weight: 600; }
 .biz-metric-label { font-size: 0.75rem; color: var(--text-soft); line-height: 1.5; }
 
+.biz-metric-second { margin-top: 10px; }
+
+.biz-metric-dual {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0;
+}
+.biz-dual-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+.biz-dual-item small {
+  font-size: 0.65rem;
+  color: var(--text-soft);
+  opacity: 0.7;
+  line-height: 1.4;
+}
+.biz-dual-sep {
+  color: var(--border-bright);
+  font-size: 1.2rem;
+  padding: 0 10px;
+  line-height: 1.5rem;
+  flex-shrink: 0;
+}
+
 .biz-source {
   display: inline-block;
   font-size: 0.68rem;
@@ -1888,12 +1915,11 @@ h1, h2, h3, h4 { line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
 
 .demo-launch-btn {
   flex-shrink: 0;
-  flex-direction: column;
-  gap: 6px;
-  text-align: center;
-  padding: 20px 36px;
+  gap: 10px;
+  padding: 18px 36px;
+  font-size: 1.05rem;
 }
-.demo-launch-btn .fa-arrow-right { font-size: 0.8rem; }
+.demo-launch-btn .fa-arrow-right { font-size: 0.85rem; }
 
 /* ═══════════════════════════════════════════════════
    CTA SECTION
