@@ -1647,11 +1647,12 @@ h1, h2, h3, h4 { line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
   color: var(--text-muted);
   opacity: 0.55;
   text-decoration: none;
-  margin-top: 6px;
+  margin-top: auto;
   padding-top: 8px;
   border-top: 1px solid var(--border);
   transition: opacity var(--transition), color var(--transition);
   width: 100%;
+  min-height: 42px;
 }
 .biz-source:hover { opacity: 1; color: var(--secondary); }
 
