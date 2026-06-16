@@ -1306,7 +1306,7 @@ h1, h2, h3, h4 { line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
 
 .edge-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
 
@@ -1337,9 +1337,26 @@ h1, h2, h3, h4 { line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
 .edge-icon.blue  { background: var(--primary-dim);   color: var(--primary); }
 .edge-icon.teal  { background: var(--secondary-dim); color: var(--secondary); }
 .edge-icon.amber { background: var(--accent-dim);    color: var(--accent); }
+.edge-icon.red   { background: var(--red-dim);       color: var(--red); }
 
 .edge-card h3 { font-size: 1.08rem; font-weight: 800; }
 .edge-card p { color: var(--text-muted); font-size: 0.9rem; line-height: 1.7; }
+
+.b2c-b2b-strip {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 48px;
+  padding: 20px 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.b2c-b2b-row {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
 
 /* ═══════════════════════════════════════════════════
    MARKET OPPORTUNITY
