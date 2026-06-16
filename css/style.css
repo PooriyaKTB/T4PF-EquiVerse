@@ -1655,6 +1655,10 @@ h1, h2, h3, h4 { line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; }
   min-height: 42px;
 }
 .biz-source:hover { opacity: 1; color: var(--secondary); }
+.biz-source:has(a) { opacity: 1; }
+.biz-source:has(a):hover { opacity: 1; color: inherit; }
+.biz-source a { color: inherit; text-decoration: none; display: block; opacity: 0.55; transition: opacity var(--transition), color var(--transition); }
+.biz-source a:hover { color: var(--secondary); opacity: 1; }
 
 /* ═══════════════════════════════════════════════════
    IMPACT
